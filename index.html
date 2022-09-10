@@ -3,8 +3,8 @@
   <head>
     <title>Matías Gutiérrez</title>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/style.css" rel="stylesheet">
     <link rel="shortcut icon" href="./images/favicons/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/estilos.css">
@@ -117,7 +117,7 @@
       <section class="testimony">
         <div class="testimony__container container">
           <img src="./images/leftarrow.svg" class="testimony__arrow" id="before" alt="">
-            <section class="testimony__body testimony__body--show" id="1">
+            <section class="testimony__body testimony__body--show" data-id="1">
             <div class="testimony__texts">
               <h2 class="subtitle">Mi nombre es Jordan Alexander, <span class="testimony__course">estudiante de CSS3</span></h2>
               <p class="testimony__review">Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
@@ -128,7 +128,7 @@
               </figure>
             </section>
 
-            <section class="testimony__body" id="2">
+            <section class="testimony__body" data-id="2">
             <div class="testimony__texts">
               <h2 class="subtitle">Mi nombre es Alejandrita Perez, <span class="testimony__course">estudiante de CSS3</span></h2>
               <p class="testimony__review">Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
@@ -138,7 +138,7 @@
                 
               </figure>
             </section>
-            <section class="testimony__body" id="3">
+            <section class="testimony__body" data-id="3">
             <div class="testimony__texts">
               <h2 class="subtitle">Mi nombre es Karen Arteaga, <span class="testimony__course">estudiante de CSS3</span></h2>
               <p class="testimony__review">Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
@@ -153,6 +153,6 @@
         </div>
       </section>
     </main>
-      <script src="./js/slider.js:"></script>
+    <script src="./js/slider.js"></script>
   </body>
 </html>

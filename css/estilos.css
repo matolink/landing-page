@@ -273,19 +273,6 @@ body{
   align-items: center;
 }
 
-.testimony__body--show{
-  pointer-events: unset;
-  opacity: 1;
-  transition: opacity 1.5s ease-in-out;
-  display: grid;
-  grid-template-columns: 1fr max-content;
-  justify-content: space-between;
-  align-items: center;
-  gap:2em;
-  grid-column: 2/3;
-  grid-row: 1/2;
-}
-
 .testimony__course{
   background-color: royalblue;
   color: #fff;
@@ -305,6 +292,19 @@ body{
   pointer-events: none;
 }
 
+.testimony__body--show{
+  pointer-events: unset;
+  opacity: 1;
+  transition: opacity 1.5s ease-in-out;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  justify-content: space-between;
+  align-items: center;
+  gap:2em;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+
 .testimony__img{
   width: 250px;
   height: 250px;
@@ -320,3 +320,5 @@ body{
   width: 90%;
   cursor:pointer;
 }
+
+01:06
